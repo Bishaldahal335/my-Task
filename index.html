@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!!BOT--Bot!1!</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/dashboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+
+        /*style sheet*/
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid sticky-top">
+                <a class="navbar-brand d-flex align-items-center" href="/index.html">
+                    <img src="/icons/signature orange.png" style="max-width: 50px;" alt="website logo" class="me-2 box">
+                    <h1>AlBis</h1>
+                </a>
+
+                <!--header for notification, telegram, username -->
+
+                <div class="d-flex align-items-center">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-bell fa-xl p-2" style="color: #f96d00;" alt="notification"></i>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-telegram fa-xl p-2" style="color: #f96d00;" alt="telegram"></i>
+                    </a>
+                    <a class="nav-link d-flex align-items-center" href="/Settings/Settings.html">
+                        <span id="">Username</span>
+                        <i class="fa-solid fa-circle-user fa-xl p-2" style="color: #f96d00;" ></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Navigation-->
+    <div class="Main container-fluid m-0">
+        <div class="row m-0">
+            <!--left nav-->
+            <div class="col-3 slidebar p-1 m-0">
+                <nav class="nav flex-column">
+                    <a class="nav-link active" href="/index.html" target="_self">
+                        <i class="fa-solid fa-gauge fa-xl" style="color: #f96d00;" ></i> Cloud mining
+                    </a>
+                    <a class="nav-link" href="/Wallet/wallet.html">
+                        <i class="fa-solid fa-wallet fa-xl" style="color: #f96d00;"></i> Wallet
+                    </a>
+                    <a class="nav-link" href="/Power Boost/power boost.html">
+                        <i class="fa-solid fa-computer fa-xl" style="color: #f96d00;"></i> Power Boost
+                    </a>
+                    <a class="nav-link" href="/Subscription/Subscription.html">
+                        <i class="fa-solid fa-crown fa-beat fa-xl" style="color: #f96d00;"></i> Subscription
+                    </a>
+                    <a class="nav-link" href="/Profit calculator/Profit calculator.html">
+                        <i class="fa-solid fa-calculator fa-xl" style="color: #f96d00;"></i> Profit Calculator
+                    </a>
+                    <a class="nav-link" href="/Referral/Referral.html">
+                        <i class="fa-solid fa-users fa-xl" style="color: #f96d00;"></i> Referral
+                    </a>
+                    <a class="nav-link" href="/History/History.html">
+                        <i class="fa-solid fa-clock-rotate-left fa-xl" style="color: #f96d00;"></i> History
+                    </a>
+                    <a class="nav-link" href="/Settings/Settings.html">
+                        <i class="fa-solid fa-gear fa-xl" style="color: #f96d00;"></i> Settings
+                    </a>
+                    <a class="nav-link" href="#"><!--buttons for mybonus-->
+                        <i class="fa-solid fa-gift fa-xl" style="color: #f96d00;"></i> My Bonus
+                    </a>
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-forward box" style="color: #f96d00;"><!--button to min nav--></i>
+                    </a>
+                    <hr>
+                    <!--Balance-->
+                    <div class=" text-align-center p-1">
+                        <span class="d-flex justify-content-center" style="color: #f96d00;" >Balance</span>
+                    </div>
+
+                    <div class=" d-flex justify-content-between align-items-center p-1">
+                        <i class="fa-brands fa-bitcoin fa-2xl px-2" style="color: #f96d00;" ></i>Bitcoin <span>000000.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center p-1">
+                        <img src="/icons/trx-coin.png" alt="trx-coin" style="width: 38px; padding-left: 2px;">TRON <span>000000.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center p-1">
+                        <img src="/icons/doge-coin.png" alt="doge-coin" style="width: 38px; padding-left: 2px;">Dogecoin <span>000000.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center p-1">
+                        <img src="/icons/ltc-coin.png" alt="ltc-coin" style="width: 38px; padding-left: 2px;">Litecoin <span>000000.00</span>
+                    </div>
+                </nav>
+            </div>
+            <!--main right-->
+            <div class="col-9 p-0">
+                <div class="container m-2">
+                    <!--Alert!!--> <!--same for signup bonus( Bonus 1000Gh/s 00:00:00:00)-->
+                    <div class=" Alert border">
+                        <div class="d-flex  justify-content-evenly align-items-center mx-1">
+                            <!--dashboard alert-->
+                            <i class="fa-solid fa-sack-dollar fa-xl" style="color: #f96d00;" ></i>
+                            <Span>Bonus credited automatically after a $10 deposit in any supported cryptocurrency. </Span>
+                            <a class=" byutun rounded-pill px-4 mx-1" href="/Wallet/wallet.html" target="_self">Deposit</a>
+                        </div>
+                    </div>
+                    <!--Banner-->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center banner">
+                                <h4 class="banner-img" alt="Banner">place for ads and banner</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Dashboard mining-->
+                    <article>
+                        <div class="container">
+                            <div class="row">
+                                <!--Bitcoin container-->
+                                <div class="col border rounded-3 p-2 m-1 mining-container">
+                                    <div class="d-flex justify-content-evenly align-items-center p-1">
+                                        <i class="fa-brands fa-bitcoin fa-2xl p-1" style="color: #f96d00;"></i>
+                                        <span style="color: #ec802d; font-weight: bold; font-size: larger;" >Bitcoin Mining</span>
+                                        <label class="switch" for="resetswitch">
+                                            <input type="checkbox" id="resetswitch">
+                                            <span class="slider"></span>
+                                        </label>
+                                    </div>
+                                    <div class="container p-2">
+                                        <div class="row">
+                                            <div class="col justify-content-center text-center" style="padding-top: 35px">
+                                                <span style="font-weight: bold; padding: 5px;">Remaining Duration</span>
+                                                <div style="font-weight: bold; font-size:large; padding: 2px; color: #f96d00;">00H : 00M : 00S</div>
+                                            </div>
+                                            <div class="col p-0">
+                                                <div class="text-center">
+                                                    <div class="bar-container p-0">
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                        <div class="bar"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="font-weight: bold; padding: 5px; text-align: center;">Amount mined</div>
+                                    <div style="font-size:xx-large; text-align: center;">000000.00 Btc</div>
+                                    <div class=" d-flex justify-content-evenly p-3">
+                                        <button class="byutun rounded-pill px-3">Withdraw</button>
+                                        <button class="byutun rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#popupModal"
+                                        id="openPopup">Transfer to Balance</button>
+                                    </div>
+                                </div>
+
+                                <!--Trx container-->
+                                <div class="col-md-6 border rounded-3 p-2 m-1 mining-container">
+                                    <div class="d-flex justify-content-evenly align-items-center p-1">
+                                        <img src="/icons/trx-coin.png" alt="trx-coin" style="width: 38px;"></img>
+                                        <span style="color: #9c9a9a; font-weight: bold; font-size: large;">Tron Mining </span>
+                                        <label class="switch" for="resetswitch-1">
+                                            <input type="checkbox" id="resetswitch-1">
+                                            <span class="slider"></span>
+                                        </label>
+                                    </div>
+                                    <div class="container p-2">
+                                        <div class="row">
+                                            <div class="col justify-content-center text-center" style="padding-top: 35px">
+                                                <span style="font-weight: bold; padding: 5px;">Remaining Duration</span>
+                                                <div style="font-weight: bold; font-size:large; padding: 2px; color: #f96d00;">00H : 00M : 00S</div>
+                                            </div>
+                                            <div class="col p-0">
+                                                <div class="text-center">
+                                                    <div class="bar-container p-0">
+                                                        <div class="bar-1"></div>
+                                                        <div class="bar-1"></div>
+                                                        <div class="bar-1"></div>
+                                                        <div class="bar-1"></div>
+                                                        <div class="bar-1"></div>
+                                                        <div class="bar-1"></div>
+                                                        <div class="bar-1"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="font-weight: bold; padding: 5px; text-align: center;">Amount mined</div>
+                                    <div style="font-size:xx-large; text-align: center;">000000.00 Trx</div>
+                                    <div class=" d-flex justify-content-evenly p-3">
+                                        <button class="byutun rounded-pill px-3">Withdraw</button>
+                                        <button class="byutun rounded-pill px-3">Transfer to Balance</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!--Dogecoin container-->
+                                <div class="col border rounded-3 p-1 m-1 mining-container">
+                                    <div class="d-flex justify-content-evenly align-items-center p-1">
+                                        <img src="/icons/doge-coin.png" alt="doge-coin" style="width: 38px;"></img>
+                                        <span style="color: #d1b841; font-weight: bold; font-size: large;">Dogecoin Mining</span>
+                                        <label class="switch" for="resetswitch-2">
+                                            <input type="checkbox" id="resetswitch-2">
+                                            <span class="slider"></span>
+                                        </label>
+                                    </div>
+                                    <div class="container p-1">
+                                        <div class="row">
+                                            <div class="col justify-content-center text-center" style="padding-top: 35px">
+                                                <span style="font-weight: bold; padding: 5px;">Remaining Duration</span>
+                                                <div style="font-weight: bold; font-size:large; padding: 2px; color: #f96d00;">00H : 00M : 00S</div>
+                                            </div>
+                                            <div class="col p-0">
+                                                <div class="text-center">
+                                                    <div class="bar-container p-0">
+                                                        <div class="bar-2"></div>
+                                                        <div class="bar-2"></div>
+                                                        <div class="bar-2"></div>
+                                                        <div class="bar-2"></div>
+                                                        <div class="bar-2"></div>
+                                                        <div class="bar-2"></div>
+                                                        <div class="bar-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="font-weight: bold; padding: 5px; text-align: center;">Amount mined</div>
+                                    <div style="font-size:xx-large; text-align: center;">000000.00 Doge</div>
+                                    <div class=" d-flex justify-content-evenly p-3">
+                                        <button class="byutun rounded-pill px-3">Withdraw</button>
+                                        <button class="byutun rounded-pill px-3">Transfer to Balance</button>
+                                    </div>
+                                </div>
+                                <!--Litcoin container-->
+                                <div class="col-md-6 border rounded-3 p-2 m-1 mining-container">
+                                    <div class="d-flex justify-content-evenly align-items-center p-2">
+                                        <img src="/icons/ltc-coin.png" alt="ltc-coin" style="width: 38px;"></img>
+                                        <span style="color: #cbc8c8; font-weight: bold; font-size: large;" >Litcoin Mining </span>
+                                        <label class="switch" for="resetswitch-3">
+                                            <input type="checkbox" id="resetswitch-3">
+                                            <span class="slider"></span>
+                                        </label>
+                                    </div>
+                                    <div class="container p-2">
+                                        <div class="row">
+                                            <div class="col justify-content-center text-center" style="padding-top: 35px">
+                                                <span style="font-weight: bold; padding: 5px;">Remaining Duration</span>
+                                                <div style="font-weight: bold; font-size:large; padding: 2px; color: #f96d00;">00H : 00M : 00S</div>
+                                            </div>
+                                            <div class="col p-0">
+                                                <div class="text-center">
+                                                    <div class="bar-container p-0">
+                                                        <div class="bar-3"></div>
+                                                        <div class="bar-3"></div>
+                                                        <div class="bar-3"></div>
+                                                        <div class="bar-3"></div>
+                                                        <div class="bar-3"></div>
+                                                        <div class="bar-3"></div>
+                                                        <div class="bar-3"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="font-weight: bold; padding: 5px; text-align: center;">Amount mined</div>
+                                    <div style="font-size:xx-large; text-align: center;">000000.00 Ltc</div>
+                                    <div class=" d-flex justify-content-evenly p-3">
+                                        <button class="byutun rounded-pill px-3">Withdraw</button>
+                                        <button class="byutun rounded-pill px-3">Transfer to Balance</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!--Banner-->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 banner">
+                                <h4 class="banner-img" alt="Banner">place for ads and banner</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <section>
+                        <div class="container">
+                            <div class="row">
+                                <!--support section-->
+                                <div class="col border p-2 m-2 Alert">
+                                    <div class="d-flex justify-content-center">
+                                        <i class="fa-solid fa-headset fa-2xl px-2" style="color: #f96d00;"></i>
+                                        <p>Support Online</p>
+                                    </div>
+                                    <p class="text-center"> Support works around the clock. We will help you solve any issues.</p>
+                                </div>
+                                <!--Monthly Profit-->
+                                <div class="col border p-2 m-2 Alert">
+                                    <div class="d-flex justify-content-center">
+                                        <i class="fa-solid fa-chart-line fa-2xl px-2"style="color: #f96d00;"></i>
+                                        <p>Monthly Profit</p>
+                                    </div>
+                                    <p class="text-center"> Provides the opportunity to earn right now. There are 4 cryptocurrency for mining to choose. Monthly profit up 78% </p>
+                                </div>
+                                <!--Welcome Bonus-->
+                                <div class="col border p-2 m-2 Alert">
+                                    <div class="d-flex justify-content-center">
+                                        <i class="fa-solid fa-hand-holding-heart fa-2xl px-2" style="color: #f96d00;"></i>
+                                        <p>Welcome Bonus</p>
+                                    </div>
+                                    <p class="text-center"> Team has prepared a welcome bonus of up to $20 for first 10 New users </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--Banner-->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 banner">
+                                <h4 class="banner-img" alt="Banner">place for ads and banner</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Transfer to main popup-->
+                    <div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="false">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content border" id="popupbox">
+                                <div class="modal-header border-0">
+                                    <h5 class="modal-title ms-auto" id="popupModalLabel">Transfer To Main Balance</h5>
+                                    <button id="x-close" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close" style="background-color: #f36b02;"></button>
+                                </div>
+                                <div class="modal-body p-1">
+
+                                    <!--Select Amount-->
+
+                                    <div class="paragraph active" id="paragraph1">
+                                        <div class="progress-container">
+                                            <div class="circle active" id="step1"></div>
+                                            <div class="line" id="line1"></div>
+                                            <div class="circle" id="step2"></div>
+                                            <div class="line" id="line2"></div>
+                                            <div class="circle" id="step3"></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center text-center position-relative">
+                                            <p class="label p-1 active" id="label1">Select Amount</p>
+                                            <p class="label p-1 ">Verify</p>
+                                            <p class="label p-1 ">Review Amount</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p>You are about to convert you're Mined coins into Main Balance.</p>
+                                            <p style="color: #f96d00; margin-bottom: 0px;"><strong>Claim the mined amount within 24hrs or it will be lost.</strong></p>
+                                        </div>
+                                        <div class=" p-2 INput">
+                                            <label class="d-block" for="Amount">Amount:</label>
+                                            <input type="number" name="" id="transferToMain-input" placeholder="Enter the amount" min="0" max="#">
+                                            <label class="d-block" for="Fee:">Fee:</label>
+                                            <input type="number" placeholder="5.00 coins" disabled>
+                                        </div>
+                                        <div class="modal-footer p-1 border-0">
+                                            <button type="button" class="byutun rounded-pill px-3" data-bs-dismiss="modal">Cancel</button>
+                                            <button type="button" class="byutun rounded-pill px-4" id="nextBtn1">Next</button>
+                                        </div>
+                                    </div>
+
+                                    <!--Verification-->
+                                    
+                                    <div class="paragraph" id="paragraph2">
+                                        <div class="progress-container">
+                                            <div class="circle active" id="step1"></div>
+                                            <div class="line active" id="line1"></div>
+                                            <div class="circle active" id="step2"></div>
+                                            <div class="line" id="line2"></div>
+                                            <div class="circle" id="step3"></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center text-center position-relative">
+                                            <p class="label active p-1 active" id="label1">Select Amount</p>
+                                            <p class="label active p-1 ">Verify</p>
+                                            <p class="label p-1 ">Review Amount</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p>Complete the shortlink to verification you are human.</p>
+                                            <div><p>place for shortlink(link)</p></div>
+                                        </div>
+                                        <div class="modal-footer p-1 border-0">
+                                            <button type="button" class="byutun rounded-pill px-3" id="prevBtn2">Previous</button>
+                                            <button type="button" class="byutun rounded-pill px-4" id="nextBtn2">Next</button>
+                                        </div>
+                                    </div>
+
+                                    <!--Review Amount-->
+
+                                    <div class="paragraph" id="paragraph3">
+                                        <div class="progress-container">
+                                            <div class="circle active" id="step1"></div>
+                                            <div class="line active" id="line1"></div>
+                                            <div class="circle active" id="step2"></div>
+                                            <div class="line active" id="line2"></div>
+                                            <div class="circle active" id="step3"></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center text-center position-relative">
+                                            <p class="label active p-1 active" id="label1">Select Amount</p>
+                                            <p class="label active p-1 ">Verify</p>
+                                            <p class="label active p-1 ">Review Amount</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="m-0">Review the Amount.</p>
+                                            <p class="m-0"><strong>Claim the mined amount within 24hrs or it will be lost.</strong></p>
+                                        </div>
+                                        <div class=" p-1 INput">
+                                            <label class="d-block" for="Amount">Amount:</label>
+                                            <input type="number" name="" id="transferToMain-input" placeholder="Enter the amount" min="0" max="#">
+                                            <label class="d-block" for="Fee:">Fee:</label>
+                                            <input type="number" placeholder="5.00 coins" disabled>
+                                            <label class="d-block" for="transfer Amount">Transfer Amount</label>
+                                            <input type="number" placeholder="Transferable Amount" disabled>
+                                        </div>
+                                        <div class="modal-footer p-1 border-0">
+                                            <button type="button" class="byutun rounded-pill px-3" id="prevBtn3">Previous</button>
+                                            <button type="button" class="byutun rounded-pill px-3" data-bs-dismiss="modal" id="nextBtn3">Complete !</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!--Website-->
+                            <div class="col border p-1 m-1 Alert">
+                                <div class="d-flex justify-content-center">
+                                    <p style="color: #f96d00; font-weight: bold; padding-top: 5px;">AlBis </p>
+                                </div>
+                                <p class="text-center">AlBis website was created after seeing the less utility of the mining platforms and many of them started getting scammed or closed due to less utility of its webiste and platforms services along with given users a idea on how the mining website works and how it handles the mining requestes of various users and their utilities in the part along it services with the use of various webhooks and its uses which facilites the users need and demands.</p>
+                                <div class=" text-center p-3">
+                                    <a href="#"><i class="fa-brands fa-instagram fa-xl p-2 m-1" style="color: #f96d00;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter fa-xl p-2 m-1" style="color: #f96d00;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-tiktok fa-xl p-2 m-1" style="color: #f96d00;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook fa-xl p-2 m-1" style="color: #f96d00;"></i></a>
+                                </div>
+                            </div>
+                            <!--information-->
+                            <div class="col-md-3 border p-1 m-1 Alert">
+                                <div class="d-flex justify-content-center">
+                                    <p style="color: #f96d00; font-weight: bold; padding-top: 5px;">Information</p>
+                                </div>
+                                <ul class="list-unstyled text-center">
+                                    <li><a href="/landing page/landing page.html">About us</a></li>
+                                    <hr>
+                                    <li><a href="/landing page/landing page.html">How to Use</a></li>
+                                    <hr>
+                                    <li><a href="/landing page/landing page.html">Pricing</a></li>
+                                    <hr>
+                                    <li><a href="/TOS/Terms&Conditions.html">Terms & conditions (not updated)</a></li>
+                                    <hr>
+                                    <li><a href="/landing page/landing page.html">FAQ</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!--rates-->
+                            <div class="col border p-1 m-1 Alert">
+                                <div class="d-flex justify-content-center">
+                                    <p style="color: #f96d00; font-weight: bold; padding-top: 5px;" >Rates in USD</p>
+                                </div>
+                                <ul class="list-unstyled text-center" style="font-size: large;">
+                                    <li>1 $ : 30000 coins</li>
+                                    <hr>
+                                    <li><i class="fa-brands fa-bitcoin fa-xl" style="color: #f96d00; padding: 0px 8px;"></i>BTC: $63505.06</li>
+                                    <hr>
+                                    <li><img src="/icons/trx-coin.png" alt="trx-coin" style="width: 45px; padding: 0px 8px;">TRX: $0.12196</li>
+                                    <hr>
+                                    <li> <img src="/icons/doge-coin.png" alt="doge-coin" style="width: 45px; padding: 0px 8px;">DOGE: $0.15919</li>
+                                    <hr>
+                                    <li> <img src="/icons/ltc-coin.png" alt="ltc-coin" style="width: 45px; padding: 0px 8px;">LTC: $81.94</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>
+                        <!--footer conversion-->
+                        <div class="container text-center Alert">
+                            <p>All Converstion, exchange and transaction charges are conducted according to the market exchange rate, changes may varies without previous notice.</p>
+                            <p>Created by <span style="color: #f96d00;"> AlBis_3994 &copy; </span>with 
+                                <i class="fa-solid fa-heart fa-xl" style="color: #f96d00; font-weight: bold;" ></i> ||
+                                Server Time : <span style="color: #f96d00; font-weight: bold;" > 00:00:00</span>
+                            </p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Notification Popup-->
+
+    <div class="notification-popup border p-2" id="popupNotify">
+        <p class="m-0 p-0 fw-bolder">Coin Transfer Completed!</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/359497d23b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="dashboard.js" ></script>
+    <script>
+        //test js
+    </script>
+</body>
+</html>
